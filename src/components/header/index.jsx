@@ -13,11 +13,11 @@ const Index = () => {
     <div>
         <header className='header'>
             <nav className='nav container'>
-             <NavLink to="/model-s">
+             <NavLink to="/">
              <img className='logoImg ' src={LogoImg} alt="logo" />
              </NavLink>
                 <ul className='ul__list'>
-                <li><NavLink to="/model-s" className={({ isActive }) => (isActive ? "active" : "inactive")}>Model S</NavLink></li>
+                <li><NavLink to="/" className={({ isActive }) => (isActive ? "active" : "inactive")}>Model S</NavLink></li>
                 <li><NavLink to="/model-3" className={({ isActive }) => (isActive ? "active" : "inactive")}>Model 3</NavLink></li>
                 <li><NavLink to="/model-x" className={({ isActive }) => (isActive ? "active" : "inactive")}>Model X</NavLink></li>
                 <li><NavLink to="/model-y" className={({ isActive }) => (isActive ? "active" : "inactive")}>Model Y</NavLink></li>

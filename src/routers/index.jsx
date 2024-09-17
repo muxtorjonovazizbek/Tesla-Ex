@@ -12,9 +12,9 @@ const Index = () => {
     const router = createBrowserRouter(
         createRoutesFromElements(
           <Route path="/" element={<App />}>
-            <Route index element={<Home/>} />
+            <Route path="/home" element={<Home/>} />
             <Route path="/hero" element={<HeroPages/>} />
-            <Route path="/model-s" element={<ModelS/>} />
+            <Route index element={<ModelS/>} />
             <Route path="/model-3" element={<Model3/>} />
             <Route path="/model-x" element={<ModelX/>} />
             <Route path="/model-y" element={<ModelY/>} />
